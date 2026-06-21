@@ -2,12 +2,12 @@
 const divT = document.querySelector('.div');
 (function insertImg(divT){
     optionImg = [
-    "img/Allen_Walker.jpg",
-    "img/Futura_Nimura.jpg",
-    "img/Futura_Nimura1.jpg",
-    "img/Jogo.jpg",
-    "img/Katakuri.jpg",
-    "img/Kore.jpg",
+    "Allen_Walker.jpg",
+    "Futura_Nimura.jpg",
+    "Futura_Nimura1.jpg",
+    "Jogo.jpg",
+    "Katakuri.jpg",
+    "Kore.jpg",
     ];
     aboutHim = [
         "A good day after an uncomfortable storm too! The life still has the problem, but that is the life, so normal...",
