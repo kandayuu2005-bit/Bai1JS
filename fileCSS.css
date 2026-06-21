@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: rgba(191, 117, 240, 0.7);
+    background-attachment: fixed;
+    overscroll-behavior: none;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+
+}
+
+.div{
+    width: 90%;
+    height: 76%;
+    position: fixed;
+    bottom: 44px;
+    background-color: rgba(20, 181, 202, 0.7) ;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, auto);
+    gap: 31px;
+    align-items: start;     
+}
+
+.div div{
+    width: 100%;
+    /* height: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    /* justify-items: center; */
+}
+.div div img{
+    width: 100%;
+    /* height: auto; */
+    border: 1.2px solid black;
+    border-radius: 16px;
+    /* position: relative;
+    left: 0; */
+
+}
+.div div img:hover{
+    /* box-shadow: ; */
+    /* background-color: linear-gradient(
+        75deg,
+        rgba(214, 8, 8, 0.688),
+        rgba(209, 238, 47, 0.589)
+        rgba(54, 235, 48, 0.75)
+        rgba(34, 147, 227, 0.483)
+    ); */
+    transition: all 0.93s ease;
+    filter: invert(1);
+
+}
+.div div img:focus{
+    /* box-shadow: ; */
+    /* background-color: linear-gradient(
+        75deg,
+        rgba(214, 8, 8, 0.688),
+        rgba(209, 238, 47, 0.589)
+        rgba(54, 235, 48, 0.75)
+        rgba(34, 147, 227, 0.483)
+    ); */
+    transition: all 0,4s ease;
+    filter: invert(1);
+}
+.div div div{
+    display: none;
+    width: 100%;
+    height:auto;
+    /* text-align: justify; */
+    /* display: fixed;
+    /* position: relative;
+    right: 0; */ 
+    /* visibility: hidden; */
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+
+
+.head{
+    display: block;
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(48, 247, 98, 0.486);
+}
+
+h1{
+    /* display: block; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+    font-weight: 2000;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    /* vertical-align: middle; */
+}
+
+
+
+
+
+
+
+
+/* .div img:hover {
+
+} */
+
+
+
+
+
