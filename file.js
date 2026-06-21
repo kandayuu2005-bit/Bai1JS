@@ -33,7 +33,7 @@ const divT = document.querySelector('.div');
         }else{
             al1 = optionImg[i].replace(".jpg", "");
         }
-        img.alt = "This is " + al1 + "! Source: " + optionImg[i];
+        img.alt = "This is " + al1 + "!";
 
         img.tabindex = 0;
 
