@@ -102,12 +102,13 @@ p{
 
 
 header{
-    width: 100vw;
+    width: 100%;
     height: 50px;
     background-color: rgba(48, 247, 98, 0.486);
     display: flex;
     position: fixed;
     justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
 }
