@@ -102,25 +102,22 @@ p{
 
 
 header{
-    display: block;
     width: 100vw;
     height: 50px;
     background-color: rgba(48, 247, 98, 0.486);
     display: flex;
     position: fixed;
+    justify-content: center;
     top: 0;
     left: 0;
 }
 
 h1{
-    /* display: block; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 29px;
-    font-weight: 2000;
+    font-weight: 900;
     color: black;
-    text-align: center;
     line-height: 50px;
-    /* vertical-align: middle; */
 }
 
 
