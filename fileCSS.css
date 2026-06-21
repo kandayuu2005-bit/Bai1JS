@@ -101,11 +101,15 @@ p{
 
 
 
-.head{
+header{
     display: block;
     width: 100vw;
     height: 50px;
     background-color: rgba(48, 247, 98, 0.486);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 h1{
